@@ -10,6 +10,10 @@ import java.util.NoSuchElementException;
 
 import static org.springframework.http.HttpStatus.*;
 
+/**
+ * Global exception handler, so if application throws an exception, this class will handle it
+ * @author Olzhas Syrbek
+ */
 @ControllerAdvice
 public class GlobalDefaultExceptionHandler {
 

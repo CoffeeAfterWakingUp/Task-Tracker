@@ -5,6 +5,12 @@ import com.example.tasktracker.model.Project;
 import java.time.LocalDateTime;
 import java.util.List;
 
+
+/**
+ * Interface declares methods which will interact with Project repository
+ *
+ * @author Olzhas Syrbek
+ */
 public interface ProjectService {
     Project getProjectById(Long id);
 

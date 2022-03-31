@@ -8,6 +8,12 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
+/**
+ * For sorting purposes of data
+ * 
+ *
+ * @author Olzhas Syrbek
+ */
 @Slf4j
 public class SortDetails {
 

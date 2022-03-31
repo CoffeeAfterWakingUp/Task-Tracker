@@ -7,6 +7,10 @@ import lombok.Setter;
 
 import javax.persistence.*;
 
+/**
+ * Entity class, stores 'task' table's properties
+ * @author Olzhas Syrbek
+ */
 @Entity
 @Table(name = "task")
 @Getter

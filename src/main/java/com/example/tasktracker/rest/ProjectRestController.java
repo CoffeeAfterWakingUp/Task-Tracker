@@ -15,6 +15,11 @@ import java.util.List;
 
 import static org.springframework.http.HttpStatus.CREATED;
 
+/**
+ * Rest Controller contains API's for working with Project's data
+ *
+ * @author Olzhas Syrbek
+ */
 @RestController
 @Slf4j
 @RequestMapping("api/projects")

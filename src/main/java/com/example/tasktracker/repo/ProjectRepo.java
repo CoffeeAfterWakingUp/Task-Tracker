@@ -7,6 +7,10 @@ import org.springframework.data.jpa.repository.Query;
 import java.time.LocalDateTime;
 import java.util.List;
 
+/**
+ * JPA repository, for DML queries which manages Project entity
+ * @author Olzhas Syrbek
+ */
 public interface ProjectRepo extends JpaRepository<Project, Long> {
 
     Project findProjectByName(String name);

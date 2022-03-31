@@ -12,6 +12,13 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 import java.util.Collections;
 
+/**
+ *
+ * Swagger 2 configuration
+ * @author Olzhas Syrbek
+ *
+ *
+ */
 @Configuration
 @EnableSwagger2
 public class SwaggerConfig {

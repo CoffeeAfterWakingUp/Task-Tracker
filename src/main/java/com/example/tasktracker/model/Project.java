@@ -10,6 +10,10 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * Entity class, stores 'project' table's properties
+ * @author Olzhas Syrbek
+ */
 @Entity
 @Table(name = "project")
 @Getter

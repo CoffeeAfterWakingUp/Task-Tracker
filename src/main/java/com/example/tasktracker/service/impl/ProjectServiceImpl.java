@@ -16,6 +16,13 @@ import java.util.Optional;
 
 import static com.example.tasktracker.util.SortDetails.getOrders;
 
+
+/**
+ * Service layer
+ * Service implements methods of ProjectService interface
+ *
+ * @author Olzhas Syrbek
+ */
 @Service
 @Slf4j
 public class ProjectServiceImpl implements ProjectService {

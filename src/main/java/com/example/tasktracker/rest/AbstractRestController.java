@@ -8,7 +8,12 @@ import java.time.LocalDateTime;
 
 import static org.springframework.http.HttpStatus.OK;
 
-public abstract class AbstractRestController {
+/**
+ * Controller contains most used methods, for nonduplication
+ *
+ * @author Olzhas Syrbek
+ */
+public class AbstractRestController {
 
     public static final String SUCCESS_MSG = "success";
 

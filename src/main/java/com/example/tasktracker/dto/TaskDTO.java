@@ -3,6 +3,10 @@ package com.example.tasktracker.dto;
 import lombok.*;
 import lombok.experimental.SuperBuilder;
 
+/**
+ * DTO class for Task entity
+ * @author Olzhas Syrbek
+ */
 @Setter
 @Getter
 @ToString

@@ -10,6 +10,10 @@ import org.springframework.http.HttpStatus;
 
 import java.time.LocalDateTime;
 
+/**
+ * DTO class for Response
+ * @author Olzhas Syrbek
+ */
 @Setter
 @Getter
 @AllArgsConstructor

@@ -4,6 +4,12 @@ import com.example.tasktracker.model.Task;
 
 import java.util.List;
 
+
+/**
+ * Interface declares methods which will interact with Task repository
+ *
+ * @author Olzhas Syrbek
+ */
 public interface TaskService {
     Task getTaskById(Long id);
 
