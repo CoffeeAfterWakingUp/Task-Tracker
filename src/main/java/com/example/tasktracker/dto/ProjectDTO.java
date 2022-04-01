@@ -9,6 +9,7 @@ import java.util.List;
 
 /**
  * DTO class for Project entity
+ *
  * @author Olzhas Syrbek
  */
 @Setter

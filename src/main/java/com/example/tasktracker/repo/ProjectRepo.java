@@ -9,6 +9,7 @@ import java.util.List;
 
 /**
  * JPA repository, for DML queries which manages Project entity
+ *
  * @author Olzhas Syrbek
  */
 public interface ProjectRepo extends JpaRepository<Project, Long> {

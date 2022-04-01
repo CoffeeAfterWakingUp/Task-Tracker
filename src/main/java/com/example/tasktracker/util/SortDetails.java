@@ -10,14 +10,14 @@ import java.util.List;
 
 /**
  * For sorting purposes of data
- * 
  *
  * @author Olzhas Syrbek
  */
 @Slf4j
 public class SortDetails {
 
-    private SortDetails () {}
+    private SortDetails() {
+    }
 
     private static Sort.Direction getSortDirection(String direction) {
         if (direction.equals("desc")) {

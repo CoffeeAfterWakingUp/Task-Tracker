@@ -12,6 +12,7 @@ import java.time.LocalDateTime;
 
 /**
  * DTO class for Response
+ *
  * @author Olzhas Syrbek
  */
 @Setter

@@ -68,11 +68,11 @@ public class ProjectServiceImpl implements ProjectService {
             log.error("Project has to have a id for updateProject");
             throw new IllegalArgumentException("Project has to have a id for updateProject");
         }
+        getProjectById(id);
         if (!project.getId().equals(id)) {
             log.error("Project's id and given id for updateProject has to be equal");
             throw new IllegalArgumentException("Project's id and given id for updateProject has to be equal");
         }
-        getProjectById(id);
         return projectRepo.save(project);
     }
 

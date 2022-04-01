@@ -7,6 +7,7 @@ import java.util.List;
 
 /**
  * JPA repository, for DML queries which manages Task entity
+ *
  * @author Olzhas Syrbek
  */
 public interface TaskRepo extends JpaRepository<Task, Long> {

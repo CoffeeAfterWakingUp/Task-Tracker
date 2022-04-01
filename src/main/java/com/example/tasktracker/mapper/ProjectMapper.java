@@ -4,7 +4,6 @@ import com.example.tasktracker.dto.ProjectDTO;
 import com.example.tasktracker.model.Project;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Component;
 
 import java.util.Collections;
@@ -14,6 +13,7 @@ import java.util.stream.Collectors;
 
 /**
  * Mapper for Project, to convert to DTO and to Entity
+ *
  * @author Olzhas Syrbek
  */
 @Component

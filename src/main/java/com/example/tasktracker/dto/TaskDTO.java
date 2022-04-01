@@ -5,6 +5,7 @@ import lombok.experimental.SuperBuilder;
 
 /**
  * DTO class for Task entity
+ *
  * @author Olzhas Syrbek
  */
 @Setter

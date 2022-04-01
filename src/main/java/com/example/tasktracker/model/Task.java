@@ -9,6 +9,7 @@ import javax.persistence.*;
 
 /**
  * Entity class, stores 'task' table's properties
+ *
  * @author Olzhas Syrbek
  */
 @Entity

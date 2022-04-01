@@ -15,6 +15,7 @@ import java.util.stream.Collectors;
 
 /**
  * Mapper for Task, to convert to DTO and to Entity
+ *
  * @author Olzhas Syrbek
  */
 @Component
